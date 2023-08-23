@@ -1,0 +1,167 @@
+//this file contains global styles applied to all components
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif !important;
+
+}
+
+.material-icons {
+    font-family: 'Material Icons' !important;
+}
+input::placeholder{
+    color: $text-secondary !important;
+}
+
+.q-field--outlined .q-field__control:before {
+    border-color: $field-boder !important;
+}
+
+.sub_heading {
+    color: #9B96A0 !important;
+}
+
+
+// color classes will go there
+
+.color-heading {
+    color: $heading !important;
+}
+
+.color-secondary {
+    color: $text-secondary !important;
+}
+
+.color-add-field-bg {
+    background-color: $textfield-options-bg !important;
+}
+
+.default-bg {
+    background-color: $default-bg;
+}
+
+.screen-bg{
+    background-color: $screen-bg;
+}
+
+.default-height {
+    min-height: 93vh;
+}
+
+.q-tree__node{
+    margin-right:9px;
+    margin-bottom: 10px;
+    top: 14.22%;
+    bottom: 81.39%;
+    border-radius: 4px;
+    padding-top: 1px !important;
+}
+
+.q-tree__arrow{
+    font-size: 16px;
+    margin-right: 0px;
+    position:absolute;
+    right:20px;
+    color: $default-font !important;
+}
+
+.q-tree__node--parent .q-tree__node-header-content{
+    margin-left: 19px;
+}
+
+.q-tree__node-header-content{
+    color: $default-font;
+}
+
+.q-tree__node--child{
+    padding: 0px 0px 0px 0px;
+}
+
+
+.bg-primary{
+    background-color: $primary !important;
+}
+
+.q-field__append > .text-negative {
+    display: none;
+}
+.status-deactive{
+    color: red !important;
+    background-color: rgba(255, 0, 0, 0.2) !important;
+    text-transform: capitalize !important;
+}
+.status-active{
+    color: green !important;
+    background-color: rgba(0, 128, 0, 0.2) !important;
+    text-transform: capitalize !important;
+
+}
+.status-pending{
+    color: $primary !important;
+    background-color: #d6dcf3 !important;
+    text-transform: capitalize !important;
+}
+
+.text-left .flex{
+    display: inline-flex !important;
+}
+
+.chip-bg-color{
+    background-color: rgb(216 222 241 / 50%);
+    
+}
+.light-bg{
+   background-color:$light !important;
+}
+
+.noHover > .q-focus-helper{
+    background-color: unset !important;
+    color: unset !important;
+}
+
+.q-item > .q-focus-helper{
+    background-color: unset !important;
+}
+
+
+.no-hover{
+    background-color: unset !important;
+}
+
+.q-tree__node-header-content{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    
+}
+
+.q-table__top{
+    border-bottom: 1px solid;
+    border-color: inherit;
+}
+
+.global-font-color{
+    color: $default-font !important;
+}
+
+.eye-color{
+    color: $primary !important
+}
+
+.back-color{
+    background-color: $primary !important
+}
+
+.q-field__label{
+    color:$default-font !important;
+}
+
+.hub-spacing{
+    min-height: 60vh;
+    padding-top: 0px;
+}
+
+.bg-secondary-light{
+    background-color: $secondary-light !important;
+}
+

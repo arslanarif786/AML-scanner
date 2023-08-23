@@ -1,0 +1,134 @@
+/**
+ * this file contains styling for report
+ */
+
+
+.q-bar.report-head {
+    background: transparent;
+    height: $sub_height;
+}
+
+.report-head .text-h5 {
+    font-weight: $medium_weight;
+    font-size: $medium_font;
+    color: $sub_head_color;
+}
+
+.add-custom {
+    background: $bg-color_back !important;
+    border-radius: $normal_border !important;
+    width: $btn2-width !important;
+    height: $btn2-height !important;
+    font-weight: $medium_weight !important;
+    font-size: $small_font !important;
+    line-height: $line_height !important;
+    display: flex !important;
+    align-items: center !important;
+    text-transform: capitalize !important;
+    color: $primary !important;
+    font-family: $family !important;
+}
+
+.add-report {
+    border-radius: $normal_border !important;
+    width: $btn2-width !important;
+    height: $btn2-height !important;
+    font-weight: $medium_weight !important;
+    font-size: $small_font !important;
+    line-height: $line_height !important;
+    display: flex !important;
+    align-items: center !important;
+    text-transform: capitalize !important;
+    font-family: $family !important;
+}
+
+.add-report .q-btn-dropdown__arrow {
+    display: none !important;
+}
+
+.add-report .q-icon.on-left {
+    margin-right: 2px !important;
+}
+
+.add-custom .q-btn-dropdown__arrow {
+    display: none !important;
+}
+
+.add-custom .q-icon.on-left {
+    margin-right: 2px !important;
+}
+
+.report-head .text-subtitle {
+    font-weight: $small_weight;
+    font-size: $small_font;
+    color: $sub_title;
+}
+
+.report_add_section .q-tab {
+    justify-content: left !important;
+}
+
+.report_add_section .q-tab.q-tab--active {
+    color: $primary !important;
+}
+
+.q-menu>.q-item {
+    margin-top: 200px;
+}
+
+.my-card .q-card__section--vert {
+    padding: 0px !important;
+}
+
+.my-card.report-card {
+    width: 234px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #F1EEE9 !important;
+    border-radius: 4px !important;
+    margin-top: 10px;
+
+}
+
+.my-card.report-card img {
+
+    height: 188px !important;
+    width: 234px !important;
+    border-radius: 4px 4px 0px 0px !important;
+
+}
+
+.action-report .q-btn-dropdown__arrow {
+    display: none !important;
+}
+
+.custom-action {
+
+    box-shadow: 0px 2px 12px rgba(93, 87, 86, 0.1);
+    border-radius: 4px;
+    width: 122px !important;
+    height: 70px !important;
+}
+
+.custom-action .q-item {
+    border-radius: 4px;
+    /* position: relative; */
+    left: 3.12%;
+    right: 7.81%;
+    top: 6.78%;
+    bottom: 52.54%;
+    width: 123px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #9B96A0;
+    min-height: 26px;
+}
+
+.custom-action .q-item :hover {
+    color: #5D5FEC;
+}
+
+.report_personal_detail label {
+    color: $sub_head_color;
+    margin-top: 20px;
+
+}

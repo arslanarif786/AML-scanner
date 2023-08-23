@@ -1,0 +1,205 @@
+.small_height {
+    height: 12px;
+}
+
+.small_width {
+    width: 32px;
+}
+
+.activity_btn {
+    width: 124px !important;
+}
+
+//all custom padding classes will go there
+.py-2 {
+    padding-top: $s-2+rem !important;
+    padding-bottom: $s-2+rem !important
+}
+
+//all custom margin classes will go there
+
+
+//all custom heights will go there
+.h-25 {
+    height: $s-15+px !important
+}
+.h-50 {
+    height: $s-50+px !important
+}
+.h-50 {
+    height: $s-50+px !important
+}
+
+.h-55 {
+    height: $s-55+px !important
+}
+
+
+.quasar-input-h-50 .q-field__control {
+    height: 50px !important;
+}
+
+//all custom width classes will go there
+.w-500 {
+    width: $s-500+px !important
+}
+
+.gap{
+    margin-bottom: 5px;
+}
+
+
+//all animation classes will go there
+.align-center {
+    align-items: center !important;
+}
+
+//display properties will go there
+.d-flex {
+    display: flex !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.content-start{
+    justify-content: flex-start !important;
+}
+
+.word-break{
+    word-break:break-word
+}
+
+.d-block{
+    display: block;
+}
+
+.q-page-container {
+    padding-top: 7px !important;
+    padding-left: 10px !important;
+}
+
+.fix-height{
+    min-height: 800px !important;
+}
+
+.q-chip__content{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.modal .q-dialog__inner--minimized > div[data-v-d183de0e]{
+    border-radius: 12px;
+}
+.q-img__container > .q-img__image{
+    width: 84% !important;
+    border-radius: 15px !important;
+}
+
+.flex{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.chip-spacing{
+    border-radius:12px;
+    width:45px;
+    height:45px;
+    top:14.25px;
+    left:14px;
+    margin-top:0px;
+    padding-top: 3px;
+    margin-left: 0px;
+}
+
+.item-spacing{
+    margin-top: -21px;
+}
+
+.expansion-item-spacing{
+    margin-top: 4px;
+}
+
+.q-item__section--avatar{
+    padding-left: 16px;
+}
+
+.q-expansion-item__container > .q-item {
+    padding-left: 15px;
+    background-color: $default-bg
+}
+
+.q-expansion-item .q-item .q-focusable{
+    display: none
+}
+
+.q-icon > img{
+    width:0.7em;
+    height:0.7em;
+}
+
+.match-margin{
+    margin-top:-8px ;
+}
+
+.x-padding{
+    padding-left: 222px;
+}
+
+.q-drawer{
+    width: 218px !important;
+}
+
+.q-header{
+    left: 218px !important;
+}
+
+.logo-spacing{
+    padding-top: 7px !important;
+}
+
+.secret-key-btn{
+    margin-top: 27px;
+    padding: 7px 25px 8px 25px !important;
+}
+
+.password-spacing{
+    height: 50px !important;
+    margin-left: 170px;
+}
+
+.password-main-spacing{
+    min-height: 60vh;
+    margin: 0px 10px 0px 230px;
+}
+
+.password-section-spacing{
+    padding: 0px 15px 0px 15px;
+}
+
+.layout-padding{
+    padding-left: 208px;
+}
+
+.all-users-spacing{
+    padding-top: 25px;
+    margin-left: 203px;
+}
+
+.roles-spacing{
+    padding: 25px 12px 0 217px;
+}
+
+.login-spacing{
+    margin-right: 180px;
+    min-height: 730px !important;
+}

@@ -1,0 +1,80 @@
+//this file contains global styles applied to all components
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif !important;
+
+}
+
+.material-icons {
+    font-family: 'Material Icons' !important;
+}
+
+input::placeholder {
+    color: $text-secondary !important;
+}
+
+.q-field--outlined .q-field__control:before {
+    border-color: $field-boder !important;
+}
+
+.sub_heading {
+    color: #9B96A0 !important;
+}
+
+
+// color classes will go there
+
+.color-heading {
+    color: $heading !important;
+}
+
+.color-secondary {
+    color: $text-secondary !important;
+}
+
+.color-add-field-bg {
+    background-color: $textfield-options-bg !important;
+}
+
+.default-bg {
+    background-color: $default-bg;
+}
+
+.item-spacing{
+    margin-top: -22px;
+}
+
+.page-spacing{
+    min-height: 87vh;
+}
+
+.auth-height{
+    min-height: 765px !important;
+}
+
+.q-chip__content{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.border-bottom {
+    border-bottom: 2px solid $report-field-border;
+}
+.status-deactive{
+    color: red !important;
+    background-color: rgba(255, 0, 0, 0.2) !important;
+    text-transform: capitalize !important;
+}
+.status-active{
+    color: green !important;
+    background-color: rgba(0, 128, 0, 0.2) !important;
+    text-transform: capitalize !important;
+
+}
+.status-pending{
+    color: orange !important;
+    background-color: rgba(255, 166, 0, 0.2) !important;
+    text-transform: capitalize !important;
+}

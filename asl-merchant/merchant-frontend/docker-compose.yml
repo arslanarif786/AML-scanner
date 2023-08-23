@@ -1,0 +1,16 @@
+version: "3.5"
+services:
+
+  deofe:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: asl_merchant_frontend
+    container_name: asl_merchant_frontend
+    restart: 'no'
+    tty: true
+    working_dir: /var/www/html/ASL_merchant/frontend
+    ports:
+      - "9006:80"
+    volumes:
+      - .:/var/www/html/ASL_merchant/frontend

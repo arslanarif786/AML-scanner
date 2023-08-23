@@ -1,0 +1,72 @@
+.small_height {
+    height: 12px;
+}
+
+.small_width {
+    width: 32px;
+}
+
+.activity_btn {
+    width: 124px !important;
+}
+
+//all custom padding classes will go there
+.py-2 {
+    padding-top: $s-2+rem !important;
+    padding-bottom: $s-2+rem !important
+}
+
+//all custom margin classes will go there
+
+
+//all custom heights will go there
+.h-25 {
+    height: $s-15+px !important
+}
+.h-50 {
+    height: $s-50+px !important
+}
+.h-50 {
+    height: $s-50+px !important
+}
+
+.h-55 {
+    height: $s-55+px !important
+}
+
+
+.quasar-input-h-50 .q-field__control {
+    height: 50px !important;
+}
+
+//all custom width classes will go there
+.w-500 {
+    width: $s-500+px !important
+}
+
+
+//all animation classes will go there
+.align-center {
+    align-items: center !important;
+}
+
+//display properties will go there
+.d-flex {
+    display: flex !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.align-center {
+    align-items: center !important;
+}

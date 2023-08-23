@@ -1,0 +1,89 @@
+//this file contains all the classes related to fonts like font sizes, font weights, etc.
+.font-1px{font-size:$s-1+px !important}
+.font-2px{font-size:$s-2+px !important}
+.font-3px{font-size:$s-3+px !important}
+.font-4px{font-size:$s-4+px !important}
+.font-5px{font-size:$s-5+px !important}
+.font-6px{font-size:$s-6+px !important}
+.font-7px{font-size:$s-7+px !important}
+.font-8px{font-size:$s-8+px !important}
+.font-9px{font-size:$s-9+px !important}
+.font-10px{font-size:$s-10+px !important}
+.font-11px{font-size:$s-11+px !important}
+.font-12px{font-size:$s-12+px !important}
+.font-13px{font-size:$s-13+px !important}
+.font-14px{font-size:$s-14+px !important}
+.font-15px{font-size:$s-15+px !important}
+.font-16px{font-size:$s-16+px !important}
+.font-17px{font-size:$s-17+px !important}
+.font-18px{font-size:$s-18+px !important}
+.font-19px{font-size:$s-19+px !important}
+.font-20px{font-size:$s-20+px !important}
+.font-21px{font-size:$s-21+px !important}
+.font-22px{font-size:$s-22+px !important}
+.font-23px{font-size:$s-23+px !important}
+.font-24px{font-size:$s-24+px !important}
+.font-25px{font-size:$s-25+px !important}
+.font-26px{font-size:$s-26+px !important}
+.font-27px{font-size:$s-27+px !important}
+.font-28px{font-size:$s-28+px !important}
+.font-29px{font-size:$s-29+px !important}
+.font-30px{font-size:$s-30+px !important}
+.font-31px{font-size:$s-31+px !important}
+.font-32px{font-size:$s-32+px !important}
+.font-33px{font-size:$s-33+px !important}
+.font-34px{font-size:$s-34+px !important}
+.font-35px{font-size:$s-35+px !important}
+.font-36px{font-size:$s-36+px !important}
+.font-37px{font-size:$s-37+px !important}
+.font-38px{font-size:$s-38+px !important}
+.font-39px{font-size:$s-39+px !important}
+.font-40px{font-size:$s-40+px !important}
+.font-41px{font-size:$s-41+px !important}
+.font-42px{font-size:$s-42+px !important}
+.font-43px{font-size:$s-43+px !important}
+.font-44px{font-size:$s-44+px !important}
+.font-45px{font-size:$s-45+px !important}
+.font-46px{font-size:$s-46+px !important}
+.font-47px{font-size:$s-47+px !important}
+.font-48px{font-size:$s-48+px !important}
+.font-49px{font-size:$s-49+px !important}
+.font-50px{font-size:$s-50+px !important}
+.font-51px{font-size:$s-51+px !important}
+.font-52px{font-size:$s-52+px !important}
+.font-53px{font-size:$s-53+px !important}
+.font-54px{font-size:$s-54+px !important}
+.font-55px{font-size:$s-55+px !important}
+.font-56px{font-size:$s-56+px !important}
+.font-57px{font-size:$s-57+px !important}
+.font-58px{font-size:$s-58+px !important}
+.font-59px{font-size:$s-59+px !important}
+.font-60px{font-size:$s-60+px !important}
+
+//line-heights
+.lh-5{line-height:$s-5+px !important}
+.lh-10{line-height:$s-10+px  !important}
+.lh-15{line-height:$s-15+px  !important}
+.lh-20{line-height:$s-20+px !important}
+.lh-25{line-height:$s-25+px  !important}
+.lh-30{line-height:$s-30+px  !important}
+.lh-35{line-height:$s-35+px  !important}
+.lh-40{line-height:$s-40+px  !important}
+.lh-45{line-height:$s-45+px  !important}
+.lh-50{line-height:$s-50+px  !important}
+.lh-55{line-height:$s-55+px  !important}
+.lh-60{line-height:$s-60+px  !important}
+
+//font weight
+.text-weight-600{font-weight:$w-600 !important}
+.text-weight-800{font-weight:$w-800 !important}
+
+
+// all custom font weights will be defined here
+.fw-600{
+    font-weight: $s-600 !important;
+}
+
+.word-break{
+    word-break: break-word !important;
+}

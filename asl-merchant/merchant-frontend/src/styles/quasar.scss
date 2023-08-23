@@ -1,0 +1,16 @@
+// all variable files will be declared here 
+
+@import './variables/spacing.variables.scss';
+@import './variables/color.variables.scss';
+@import './variables/style.variables.scss';
+@import './variables/weight.variables.scss';
+@import "../../node_modules/quasar/dist/quasar.sass";
+// @import '~quasar-addon-styl';
+
+// all style files will be defined here 
+@import './app/global.scss';
+@import './app/flags.scss';
+@import './app/fonts.scss';
+@import './app/spacing.scss';
+@import './source/sources.scss';
+@import './reports/report.scss';
